@@ -13,3 +13,4 @@ My Dato Portfolio for  Data Analyst Role
 - Python
 - Dashboard
 
+You can find me on  linkedin https://www.linkedin.com/in/thitiphorn24/
