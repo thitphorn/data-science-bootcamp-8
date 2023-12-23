@@ -1,0 +1,36 @@
+# HW 04 - Data Transformation
+
+
+## 🐺HOMEWORK
+
+- ตั้งคำถาม 5 ข้อเกี่ยวกับ `flights`
+- สร้าง database ใน PostgreSQL เกี่ยวกับ Pizza restaurant
+### ✈️HW 1
+
+```r
+library(nycflights13)
+```
+
+<aside>
+☃️ The `library(nycflights13)` command in R loads the `nycflights13` package, which contains data on all flights that departed from NYC in 2013. This package includes five datasets:
+
+- `flights`: The main dataset, which contains information on all flights, including departure and arrival times, delays, cancellations, and other details.
+- `airlines`: A dataset of information on all airlines that operated flights in 2013.
+- `airports`: A dataset of information on all airports in the United States, Puerto Rico, and the American Virgin Islands.
+- `weather`: A dataset of weather data for all airports in the United States, Puerto Rico, and the American Virgin Islands.
+- `planes`: A dataset of information on all planes that operated flights in 2013.
+</aside>
+- **Ask questions about  flights dataset**
+
+<aside>
+🐓 1.ค่าเฉลี่ยของเที่ยวบินที่ดีเลย์ในเดือนที่ 1 - 6 มากที่สุด 3 อันดับ
+
+2.ค่าเฉลี่ยระยะทางของเที่ยวบิน(หน่วย : ไมล์)แบ่งตามเดือน
+
+3.สายการบินที่เวลาที่กำหนดในการถึงปลายทางกับเวลาที่ถึงปลายทางจริงที่มีผลต่างมากที่สุด
+
+4.ระยะทางที่มากที่สุด น้อยที่สุด ค่าเฉลี่ยของแต่ละสายการบิน
+
+5.สายการบินต้นทางกับสายการบินของสนามบินปลายทางที่มีจำนวนไฟท์บินมากที่สุด 5 อันดับ
+
+</aside>
